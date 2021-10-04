@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header part start */
+header {
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    justify-content: space-between;
+    box-shadow: 0px 1px 4px rgb(68, 66, 66);
+}
+
+#logo {
+    width: 50%;
+    padding: 10px 10px;
+}
+
+.header_link {
+    padding: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 0.2;
+}
+
+/* header part End */
+
+/* center body Contact form part start */
+
+.contact_section {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact_section_container {}
+
+.contact_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(192, 250, 231);
+}
+
+.contact_enquiry_form_div {
+    padding: 50px;
+    font-size: large;
+    background-color: rgb(238, 235, 241);
+}
+
+td {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+td input {
+    outline: 0;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+td button {
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid rgb(30, 30, 39);
+    outline: 0;
+}
+
+td button:hover {
+    background-color: rgb(192, 250, 231);
+}
+
+
+/* center body Contact form part End */
+/* footer part start */
+footer {
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(31, 29, 29);
+}
+
+footer div {
+    margin: 1rem;
+    padding: 10px 30px;
+    width: 20%;
+    color: aliceblue;
+}
+
+footer div p {
+    font-size: small;
+}
+
+footer div h2 {
+    margin-bottom: 10px;
+}
+
+footer div a {
+    color: aliceblue;
+}
+
+.footer_about {
+    flex: 1;
+}
+
+.footer_link {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_disclaimer {
+    flex: 1;
+}
+
+/* footer part End */
