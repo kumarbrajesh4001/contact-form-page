@@ -65,13 +65,13 @@ nav a {
     align-items: center;
     justify-content: center;
     height: 7rem;
-    background-color: rgb(192, 250, 231);
+    background-color: rgb(214, 237, 238);
 }
 
 .contact_enquiry_form_div {
     padding: 3rem;
     font-size: large;
-    background-color: rgb(238, 235, 241);
+    background-color: rgb(250, 249, 249);
     /* background-color: rgb(66, 206, 159); */
 }
 
@@ -108,7 +108,7 @@ footer {
     position: absolute;
     position: relative;
     font-family: 'Oxygen', sans-serif;
-    /* height: 40vh; */
+    height: 25rem;
     display: flex;
     width: 100%;
     /* align-items: center; */
