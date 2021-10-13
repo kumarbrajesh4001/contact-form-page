@@ -83,14 +83,15 @@ td {
 
 td input {
     outline: 0;
-    padding: 5px;
+    padding: 0.4rem;
     border: 1px solid black;
-    border-radius: 8px;
+    border-radius: 0.5rem;
 }
 
 td button {
-    padding: 5px;
-    border-radius: 8px;
+    
+    padding: 0.5rem;
+    border-radius: 0.5rem;
     border: 1px solid rgb(30, 30, 39);
     outline: 0;
 }
@@ -140,29 +141,28 @@ footer div a {
 .footer_about {
     
     /* border: 2px solid lightcoral; */
-    font-size: 2rem;
+    font-size: 1.2rem;
     flex: 1;
 }
 
-.footer_link {flex: 0.5;font-size: 2rem;
+.footer_link {flex: 0.5;font-size: 1.2rem;
     display: flex;
     flex-direction: column;
 }
 
-.footer_disclaimer {font-size: 2rem;
+.footer_disclaimer {font-size: 1.2rem;
     flex: 1;
 }
 
 /* footer part End */
 
- @media (max-width:700px) {
+ /* @media (max-width:700px) {
     header nav { 
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin: 0.2rem;
-        /* border: 1px solid red; */
-        /* background-color: rgb(102, 102, 109); */
+     
     }
     nav a{
         font-size: 1rem;
@@ -172,7 +172,6 @@ footer div a {
         align-items: center;
         justify-content: space-between;
         margin: 1rem;
-        /* border: 1px solid red; */
-        /* background-color: rgb(102, 102, 109); */
+       
     }
-} 
+}  */
